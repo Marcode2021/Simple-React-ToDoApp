@@ -16,7 +16,6 @@ function App() {
       updatedGoals.unshift({ text: enteredText, id: Math.random().toString() });
       return updatedGoals;
     });
-    console.log(courseGoals);
   };
 
   const deleteItemHandler = (goalId) => {
